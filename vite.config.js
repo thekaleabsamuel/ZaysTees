@@ -1,11 +1,14 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import path from 'path'
 
 export default defineConfig({
-  plugins: [react()],
-  css: {
-    modules: {
-      localsConvention: 'camelCase',
+  build: {
+    outDir: 'dist',
+    base: '/ZaysTees/',
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+      },
     },
   },
-});
+})
