@@ -38,8 +38,8 @@ const MainPage = () => {
             <p className="hero-text">Locally pressed, and reliably printed garments</p>
           </div>
           <div className="hero-image">
-            <img src={HeroImage} alt="Hero" />
-          </div>
+  <img src="https://i.postimg.cc/x12WrqfC/s-l1600-removebg-preview.png" alt="Hero" />
+</div>
         </section>
       </main>
     </div>
