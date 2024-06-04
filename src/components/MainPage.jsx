@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import './MainPage.css';
-import HeroImage from '../assets/hero.png'; // Import your hero image
+// import HeroImage from '../assets/hero.png'; // Import your hero image
 
 const TextAnimation = () => {
   return (
