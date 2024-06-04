@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import './MainPage.css';
-// import HeroImage from '../assets/hero.png'; // Import your hero image
+import { Link } from 'react-router-dom';
 
 const TextAnimation = () => {
   return (
@@ -36,10 +36,13 @@ const MainPage = () => {
           <div className="hero-content">
             <TextAnimation />
             <p className="hero-text">Locally pressed, and reliably printed garments</p>
+            <Link to="/contact" className="contact-btn">
+              Contact Us Now
+            </Link>
           </div>
           <div className="hero-image">
-  <img src="https://i.postimg.cc/x12WrqfC/s-l1600-removebg-preview.png" alt="Hero" />
-</div>
+            <img src="https://i.postimg.cc/x12WrqfC/s-l1600-removebg-preview.png" alt="Hero" />
+          </div>
         </section>
       </main>
     </div>

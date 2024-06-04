@@ -89,3 +89,29 @@
     max-width: 100%;
     height: auto;
   }
+
+
+
+.hero-content {
+  text-align: right;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #e65037;
+}
