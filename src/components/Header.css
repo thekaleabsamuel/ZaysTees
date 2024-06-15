@@ -6,6 +6,11 @@
     background-color: transparent; /* Changed from #333 */
     padding: 1rem;
   }
+
+  .logo {
+    width: 40%;
+    height: auto;
+  }
   
   .navbar-brand a {
     color: #fff;

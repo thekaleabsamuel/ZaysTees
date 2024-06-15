@@ -2,6 +2,9 @@ import React from 'react';
 import Header from './Header';
 import './MainPage.css';
 import { Link } from 'react-router-dom';
+import About from './About'; // Import the About component
+import Services from './Services'; // Import the Services component
+import Contact from './Contact'; // Import the Contact component
 
 const TextAnimation = () => {
   return (
@@ -44,6 +47,10 @@ const MainPage = () => {
             <img src="https://i.postimg.cc/x12WrqfC/s-l1600-removebg-preview.png" alt="Hero" />
           </div>
         </section>
+        {/* Add the About component */}
+        <About />
+        <Services />
+        <Contact />
       </main>
     </div>
   );

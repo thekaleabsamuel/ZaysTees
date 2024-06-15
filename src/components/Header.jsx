@@ -7,8 +7,7 @@ const Header = () => {
     <header>
       <nav className="navbar">
         <div className="navbar-brand">
-          <Link to="/">Zay T Shirt Design</Link>
-        </div>
+        <img src="https://i.postimg.cc/xCbt1DW3/Screenshot-2024-06-15-at-11-01-12-AM-removebg-preview.png" alt="Zay T Shirt Design Logo" className="logo"/>        </div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link to="/" className="nav-link">
